@@ -1708,6 +1708,10 @@ div.rm-reference-container {
   padding-left: 0px;
   margin-top: -4px !important;
 }
+/* Right Sidebar Page Titles */
+#right-sidebar h1.level2 a {
+  color: var(--page-link-color);
+}
 .roam-app h2 {
   color: var(--h2-font-color);
   /* background-color: var(--h1-bg); */
