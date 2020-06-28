@@ -92,7 +92,7 @@
   --pages-header-row: var(--highlighted-background);
   --pages-search-bg: var(--secondary-background);
   --pages-search-outline: var(--search-outline);
-  --pages-mentions-color: var(--primary-light);
+  --pages-mentions-color: var(--secondary-background);
   --pages-table-border: var(--highlighted-background);
   --pages-mentions-bg-empty: var(--secondary-background);
   --pages-mentions-color-empty: var(--primary);
