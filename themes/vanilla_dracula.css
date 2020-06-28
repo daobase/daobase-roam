@@ -1217,7 +1217,7 @@ span.rm-page-ref.rm-page-ref-tag:hover {
   color: var(--page-link-color); /*RR change: theme color*/
 }
 .rm-page-ref-namespace-color {
-  color: green;
+  color: var(--primary-light);
 }
 .rm-block-ref {
   /* padding: 4px 2px; */
@@ -3542,7 +3542,7 @@ span.rm-page-ref.rm-page-ref-tag:hover {
   color: var(--primary-light); /*RR change: theme color*/
 }
 .rm-page-ref-namespace-color {
-  color: green;
+  color: var(--primary-light);
 }
 .rm-block-ref {
   /* padding: 4px 2px; */
