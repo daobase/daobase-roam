@@ -1350,53 +1350,283 @@ div.rm-block-ref {
 .rm-fill {
   width: 100%;
 }
+.bp3-icon-export {
+  margin-left: 30px; /*RR change: added a little space between export and delete buttons */
+}
+.bp3-control .bp3-control-indicator {
+    background-clip: padding-box;
+    background-color: #555;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(82, 82, 82, 0.8)),to(rgba(0,0,0,0)));
+    /* background-image: none; */
+    border: 0;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(16,22,26,0.2), inset 0 -1px 0 rgba(16,22,26,0.1);
+    box-shadow: inset 0 0 0 1px rgba(16,22,26,0.2), inset 0 -1px 0 rgba(16,22,26,0.1);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 1em;
+    margin-right: 10px;
+    margin-top: -3px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    width: 1em;
+    /* border: 1px solid #137cbd; */
+}
+.bp3-control:hover .bp3-control-indicator {
+  background-color: #137cbd;
+  background-image: none;
+}
+
+.rm-all-pages {
+  height: 100%;
+  padding: 16px 50px 50px;
+}
+.rm-all-pages.mobile {
+  padding: 16px 25px 50px;
+}
+.rm-all-pages .table {
+  height: 100%;
+  overflow-y: scroll;
+  margin-top: 8px;
+}
+.rm-all-pages .table .rm-pages-row {
+  display: flex;
+  flex: 0 0 auto;
+  /* border-bottom: 1px solid #e1e8ed; */
+  border-bottom: 1px solid var(--pages-table-border); /*RR change: added variable*/
+  width: auto;
+  z-index: 1;
+  min-width: 720px;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #8a9ba8;
+}
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header {
+  background-color: #e1e8ed;
+  border-radius: 4px;
+  overflow-y: hidden;
+  position: sticky;
+  top: 0;
+  color: #bfccd6;
+  font-size: 12px;
+}
+.rm-all-pages .table .rm-pages-row .rm-pages-title-col {
+  /* color: #bfccd6; */
+  color: var(--main-font-color); /*RR change: added variable*/
+  padding: 8px 4px;
+  flex: 2 0 0 ;
+  text-overflow: ellipsis;
+}
+.bp3-text-overflow-ellipsis .title-children-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.rm-all-pages .table .rm-pages-row .rm-pages-checkbox-col {
+  padding: 8px 8px;
+  flex: none;
+}
+.rm-all-pages .table .rm-pages-row .rm-pages-checkbox-col .checkbox-header {
+  margin-bottom: 0px;
+}
+.rm-all-pages .table .rm-pages-row .rm-pages-col {
+  padding: 8px 4px;
+  flex: 0 0 140px;
+  text-align: center;
+}
+.rm-all-pages .table .rm-pages-row .rm-pages-more-col {
+  padding: 8px 8px;
+  flex: none;
+}
+.sorted-header-text {
+  /* color: #5c7080; */
+  color: var(--strong);
+  font-weight: 600;
+}
+.sorting-button-group {
+  display: inline-block;
+}
+.sorting-button-group .sort-button {
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+.sorting-button-group .sort-button.desc {
+  padding-left: 0px;
+}
+.sorting-button-group .sort-button.focused {
+  font-weight: 600;
+  /* color: #5c7080; */
+  color: var(--strong);
+}
+.rm-clickable-pill {
+  display: inline-block;
+  width: max-content;
+  font-size: 0.8em;
+  font-weight: 500;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 24px;
+  padding: 2px 10px;
+  color: white;
+  opacity: 0.6;
+  /* background-color: #2b95d6; */
+  background-color: var(--pages-mentions-color);
+  cursor: pointer;
+}
+.rm-clickable-pill.empty-pill {
+  /* color: #0e5a8a; */
+  color: var(--pages-mentions-color-empty);
+  opacity: 1;
+  pointer-events: none;
+  /* background-color: white; */
+  background-color: var(--pages-mentions-bg-empty);
+}
+.rm-clickable-pill.level1-pill {
+  opacity: 0.6;
+  background-color: #137cbd;
+  background-color: var(--pages-mentions-color);
+
+}
+.rm-clickable-pill.level2-pill {
+  opacity: 0.7;
+  background-color: #137cbd;
+  background-color: var(--pages-mentions-color);
+
+}
+.rm-clickable-pill.level3-pill {
+  opacity: 0.8;
+  background-color: #137cbd;
+  background-color: var(--pages-mentions-color);
+
+}
+.rm-pages-more-info-popover {
+  padding: 8px 8px;
+}
+.button-disabled-strong {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.rm-pages-toolbar {
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+.rm-pages-toolbar .toolbar-action-button-group {
+  height: 30px;
+  display: flex;
+}
+.rm-pages-toolbar .toolbar-search-group {
+  display: flex;
+}
+.rm-pages-toolbar .toolbar-search-group .filter-button {
+  margin: 0px;
+  padding: 0px;
+  min-width: 30px;
+  min-height: 30px;
+}
+.rm-pages-toolbar .toolbar-search-group .filter-button .filter-icon {
+  font-size: 16px;
+}
+.rm-pages-toolbar .toolbar-search-group .filter-button .filter-icon.filtered {
+  color: #a82a2a;
+}
+.rm-pages-toolbar .toolbar-search-group .search-icon {
+  /* color: #bfccd6; */
+  color: var(--search-font-color); /*RR change: added variable and reduced opacity*/
+  opacity: 0.8;
+}
+.rm-pages-toolbar .toolbar-search-group .search-icon.focused {
+  /* color: #8a9ba8; */
+  color: var(--search-font-color);
+  opacity: 1.0;
+}
+.rm-pages-toolbar .toolbar-search-group .search-input {
+  margin-right: 4px;
+  box-shadow: none;
+  /* background-color: #f5f8fa; */
+  background-color: var(--pages-search-bg); /*RR change: added variable*/
+  border: 1px solid var(--pages-search-bg); /*RR change: added invisible border to get rid of the "jump" that occurs when selecting the control*/
+}
+.rm-pages-toolbar .toolbar-search-group .search-input.focused {
+  border: 1px solid #8a9ba8;
+  border: 1px solid var(--pages-search-outline);
+}
+.rm-pages-toolbar .toolbar-search-group .bp3-input-group {
+  margin-right: 10px; /*RR change: added margin to move it way from the other icons*/
+}
+.delete-all-dialog-list {
+  align-items: center;
+  width: 100%;
+  overflow-y: scroll;
+  justify-content: space-between;
+  margin: 4px 0px;
+  border-color: red;
+}
+.delete-all-dialog-items {
+  margin: 4px 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  /* border-bottom-color: #d8e1e8; */
+  border-bottom-color: var(--pages-table-border); /*RR change: added variable*/
+}
+.delete-all-dialog-items.last-item {
+  margin: 0px;
+  border-bottom-color: transparent;
+}
+.delete-all-dialog-secondary-text {
+  color: #bfccd6;
+}
+.confirmation-content-dialog {
+  padding: 12px;
+  max-width: 80vw;
+}
+.confirmation-content-dialog .confirmation-content-header {
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px;
+}
+.confirmation-content-dialog .confirmation-content {
+  margin: 12px;
+  max-height: 40vh;
+  /* background-color: #f5f8fa; */
+  background-color: var(--pages-delete-bg);
+  border-radius: 4px;
+  padding: 0px 4px;
+}
+.confirmation-content-dialog .confirmation-content-buttons {
+  margin: 12px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.confirmation-content-dialog .confirmation-content-buttons .cancel-button {
+  border-color: #bfccd6;
+  color: #bfccd6;
+  margin-right: 8px;
+  font-size: 1em;
+}
+.confirmation-content-dialog .confirmation-content-buttons .confirm-button {
+  box-shadow: none;
+  font-size: 1em;
+}
 .rm-pages-sort-menu-item {
   padding-right: 16px;
   padding-left: 16px;
   font-weight: bold;
 }
 .rm-pages-row-highlight {
-  /*background-color: #f5f8fa;*/
-  background-color: var(--pages-row-highlight); /*RR change: dark alternating row color*/
+  background-color: #f5f8fa;
 }
-.rm-pages-row {
-  display: flex;
-  flex: 0 0 auto;
-  justify-content: space-between;
-  align-items: flex-start;
+.rm-pages-title-text {
+  color: black;
+  margin-right: 8px;
 }
-.rm-pages-row:first-child { /*RR change: Table Header*/
-  background-color: var(--pages-header-row) !important;
-}
-.rm-pages-row .rm-pages-title-col a strong { /*RR change: Page Title*/
-  color: var(--page-link-color) !important;
-}
-.rm-pages-row .rm-pages-title-col a strong:hover { /*RR change: Page Title*/
-  text-decoration: underline;
-}
-.rm-pages-row .rm-pages-sort-header {
-  display: flex;
-  flex: 0 0 auto;
-  align-items: center;
-  cursor: pointer;
-}
-.rm-pages-row .rm-pages-sort-header:hover {
-  text-decoration: underline;
-}
-.rm-pages-row .rm-pages-title-col {
-  padding: 8px 4px;
-  flex: 1 0 50%;
-  text-overflow: ellipsis;
-}
-.rm-pages-row .rm-pages-action-col {
-  text-align: right;
-  flex: 1 0 0;
-  padding: 8px 4px;
-}
-.rm-pages-row .rm-pages-col {
-  color: #8a9ba8;
-  padding: 8px 4px;
-  flex: 1 0 15%;
+.rm-pages-title-text.title-children-text {
+  color: #bfccd6;
+  font-size: 12px;
+  margin-right: 0px;
 }
 .rm-reference-item {
   margin-top: 8px;
