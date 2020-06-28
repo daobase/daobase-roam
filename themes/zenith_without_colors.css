@@ -125,7 +125,8 @@ h1.rm-title-display, .rm-title-textarea {
 /* spacing and scrolling */
 #roam-right-sidebar-content > * {
     margin: 0px 0px 0 20px !important;
-    overflow: auto!important;
+    overflow-x: hidden;
+    overflow-y: auto!important;
     max-height: 100vh;
     padding: 50px 0px 100px 0px;
     
