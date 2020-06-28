@@ -93,6 +93,22 @@ h1.rm-title-display, .rm-title-textarea {
 /*       RIGHT SIDEBAR        */
 /* -------------------------- */
 
+/* sidebar-to-content ratio */
+.roam-center {
+    flex-basis: 50% !important;
+}
+
+/* sticky sidebar pages */
+#right-sidebar #roam-right-sidebar-content > div {
+    position: sticky;
+    left: 16px
+}
+
+/* bring card to top on focus */
+#right-sidebar #roam-right-sidebar-content > div:focus-within {
+    z-index: 100;
+}
+
 #right-sidebar {
     display: inline-flex !important;
     vertical-align: top;
