@@ -61,7 +61,7 @@
   /* backgrounds and outlines */
   --body-bg: var(--main-background);
   --left-sidebar-bg: var(--secondary-background);
-  --right-sidebar-bg: var(--main-background);
+  --right-sidebar-bg: var(--secondary-background);
   --icon-color: var(--primary);
   --icon-bg-hover: var(--secondary-background);
   --icon-color-hover: var(--primary);
