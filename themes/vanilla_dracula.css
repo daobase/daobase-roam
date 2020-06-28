@@ -4842,11 +4842,11 @@ div.CodeMirror .CodeMirror-code pre {
 /*<!--activeline-->*/
 .CodeMirror-activeline-background { background: var(--highlighted-background); }
 
-.CodeMirror {background: var(--code-bg); color: var(--font); font-size: 0.85em;}
+.CodeMirror {background: var(--main-background); color: var(--font); font-size: 0.85em;}
 div.CodeMirror-selected {background: var(--highlighted-background) !important;}
 .CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: rgba(68, 68, 119, .99); }
 .CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: rgba(68, 68, 119, .99); }
-.CodeMirror-gutters {background: var(--secondary-background); border-right: 1px solid var(--secondary-background);}
+.CodeMirror-gutters {background: var(--highlighted-background); border-right: 1px solid var(--highlighted-background);}
 .CodeMirror-guttermarker { color: white !important; }
 .CodeMirror-guttermarker-subtle { color: #bbb !important; }
 .CodeMirror-linenumber {color: var(--primary-light);}
@@ -4883,7 +4883,7 @@ span.cm-meta { color: #369BFF !important; }
 .CodeMirror-matchingbracket { outline:1px solid var(--reference); color:#fff !important; }
 .CodeMirror-activeline-background { background: var(--primary); }
 
-.CodeMirror pre {background: var(--secondary-background);}
+.CodeMirror pre {background: var(--main-background);}
 
 
 .CodeMirror-lines {background: var(--secondary-background);}
