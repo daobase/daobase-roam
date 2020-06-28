@@ -1380,7 +1380,54 @@ div.rm-block-ref {
   background-color: #137cbd;
   background-image: none;
 }
-
+.rm-pages-sort-menu-item {
+  padding-right: 16px;
+  padding-left: 16px;
+  font-weight: bold;
+}
+.rm-pages-row-highlight {
+  /*background-color: #f5f8fa;*/
+  background-color: var(--pages-row-highlight); /*RR change: dark alternating row color*/
+}
+.rm-pages-row {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.rm-pages-row:first-child { /*RR change: Table Header*/
+  background-color: var(--pages-header-row) !important;
+}
+.rm-pages-row .rm-pages-title-col a strong { /*RR change: Page Title*/
+  color: var(--page-link-color) !important;
+}
+.rm-pages-row .rm-pages-title-col a strong:hover { /*RR change: Page Title*/
+  text-decoration: underline;
+}
+.rm-pages-row .rm-pages-sort-header {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  cursor: pointer;
+}
+.rm-pages-row .rm-pages-sort-header:hover {
+  text-decoration: underline;
+}
+.rm-pages-row .rm-pages-title-col {
+  padding: 8px 4px;
+  flex: 1 0 50%;
+  text-overflow: ellipsis;
+}
+.rm-pages-row .rm-pages-action-col {
+  text-align: right;
+  flex: 1 0 0;
+  padding: 8px 4px;
+}
+.rm-pages-row .rm-pages-col {
+  color: #8a9ba8;
+  padding: 8px 4px;
+  flex: 1 0 15%;
+}
 .rm-all-pages {
   height: 100%;
   padding: 16px 50px 50px;
