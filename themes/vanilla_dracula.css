@@ -143,45 +143,6 @@
     max-height: 3.5em;
 }
 
-/* ----------------------------------------- */
-
-/* Daniel van der Merwe's Masonry Layout (inspired by Andy Matuschak) */
-
-.roam-center {
-  flex: 1 1 100% !important;
-  flex-basis: 10% !important;
-}
-
-#right-sidebar #roam-right-sidebar-content {
-  overflow: scroll !important;
-  white-space: normal;
-  display: flex;
-  align-content: flex-start;
-  flex-flow: column wrap;
-}
-
-#right-sidebar #roam-right-sidebar-content > div {
-  position: relative;
-  display: flex;
-  flex: 0 1 auto;
-  flex-direction: column;
-  padding: 10px;
-  border: 0.5px transparent !important;
-  border-radius: 5px;
-  background-color: var(--secondary-background) !important;
-  align-self: flex-start;
-  margin-right: 0px !important;
-  margin-bottom: 16px;
-  min-height: fit-content;
-  width: 600px;
-}
-
-#right-sidebar #roam-right-sidebar-content > div > div:nth-child(2) {
-  resize: vertical;
-  overflow-y: auto;
-  overflow-x: hidden;
-  max-height: 780px;
-}
 
 /* ----------------------------------------- */
 
