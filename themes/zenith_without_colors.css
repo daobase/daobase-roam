@@ -83,7 +83,7 @@ h1.rm-title-display, .rm-title-textarea {
     max-width: 100% !important;
     height: 100%;
     
-    overflow-x: scroll;
+    overflow-x: ;
     overflow-y: hidden;
     margin: auto;
     transition: padding-left 0.15s ease-out;
