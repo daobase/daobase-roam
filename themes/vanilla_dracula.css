@@ -63,7 +63,7 @@
   --left-sidebar-bg: var(--secondary-background);
   --right-sidebar-bg: var(--secondary-background);
   --icon-color: var(--primary);
-  --icon-bg-hover: var(--secondary-background);
+  --icon-bg-hover: var(--highlighted-background);
   --icon-color-hover: var(--primary-light);
   --h1-bg: transparent;
   --hr: var(--font);
