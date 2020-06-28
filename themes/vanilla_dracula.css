@@ -134,15 +134,6 @@
 
 /* ----------------------------------------- */
 
-/*RR change: Wraps text when performing an inline search with [[]] or (())*/
-
-.bp3-text-overflow-ellipsis {
-    text-overflow: unset;
-    white-space: unset;
-    font-size: 0.7em;
-    max-height: 3.5em;
-}
-
 
 /* ----------------------------------------- */
 
