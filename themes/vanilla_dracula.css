@@ -174,7 +174,6 @@ div.roam-center > div:first-child {
 /* ----------------------------------------- */
 
 /*RR change: Uncomment the following section to hide the tool bar when not in use. A great idea from @Devon. Source: https://gist.github.com/devonzuegel/f54de76cbf0c0355d93e721c89f45787;
- */
 
 #roam-right-sidebar-content > div {
   border-bottom: none !important;
@@ -191,7 +190,7 @@ div.roam-center > div:first-child {
     transition: opacity 200ms;
     z-index: 1;
     background: none;
-    /* Making space for the close sidebar button */
+    /* Making space for the close sidebar button
     width: calc(100% - 40px);
     height: 45px;
     padding-right: 16px;
