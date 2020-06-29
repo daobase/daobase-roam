@@ -255,6 +255,13 @@ div::-webkit-scrollbar-thumb {
     color: var(--primary) !important;
 }
 
+/* ----------------------------------------- */
+
+/* Graph Dropdown Menu */
+
+.bp3-menu rm-graph-dropdown {
+  color: var(--main-font);
+}
 
 /* ----------------------------------------- */
 
