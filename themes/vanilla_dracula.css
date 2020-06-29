@@ -236,6 +236,25 @@ div::-webkit-scrollbar-thumb {
 
 /* ----------------------------------------- */
 
+/* Mobile Bar */
+
+#mobile-capture {
+    background-color: var(--main-background) !important;
+}
+
+#mobile-capture textarea, #mobile-capture input {
+    background-color: var(--secondary-background) !important;
+}
+#mobile-capture textarea::placeholder, #mobile-capture input::placeholder {
+    color: var(--font) !important;
+}
+#rm-mobile-bar {
+    background-color: var(--highlighted-background) !important;
+}
+#rm-mobile-bar .bp3-button::before, #rm-mobile-bar .bp3-button i::before {
+    color: var(--primary) !important;
+}
+
 
 /* ----------------------------------------- */
 
