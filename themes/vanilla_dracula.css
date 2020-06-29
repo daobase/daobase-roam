@@ -124,9 +124,9 @@
   --encrypted-font-color:#ff6000;
   --encrypted-bg:#353535;
   
-  --emoji-bg: #2d2d2d;
+  --emoji-bg: var(--secondary-background);
   --emoji-border: rgba(225, 117, 28, 0.40);
-  --emoji-color: #aaa;
+  --emoji-color: var(--primary);
   
   --no-query-results: "Query returned no results";
   --no-query-results-color: #FC5963;
