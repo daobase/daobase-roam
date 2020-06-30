@@ -194,7 +194,7 @@ div::-webkit-scrollbar-thumb {
 }
 .roam-sidebar-container .rm-db-title-container:hover {
   cursor: pointer;
-  background-color: var(--font-hover);
+  background-color: var(--highlighted-background);
 }
 .roam-sidebar-container .rm-db-title-container .rm-db-title {
   margin-top: 4px;
