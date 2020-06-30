@@ -2053,11 +2053,11 @@ div.roam-block {
   font-family: var(--main-font);
   font-size: var(--main-font-size);
 }
-#roam-right-sidebar-content div {
-  font-family: var(--main-font);
-}
 #roam-right-sidebar-content > div {
     border-bottom: 1px solid var(--highlighted-background) !important;
+}
+#roam-right-sidebar-content div {
+  font-family: var(--main-font);
 }
 .roam-block .span-view {
   box-sizing: border-box;
