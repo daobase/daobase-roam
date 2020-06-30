@@ -185,8 +185,43 @@ div::-webkit-scrollbar-thumb {
 
 /* Graph Dropdown Menu */
 
-.bp3-menu .rm-graph-dropdown {
-  color: var(--main-font);
+.roam-sidebar-container .rm-db-title-container {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+  max-width: 80%;
+}
+.roam-sidebar-container .rm-db-title-container:hover {
+  cursor: pointer;
+  background-color: var(--font-hover);
+}
+.roam-sidebar-container .rm-db-title-container .rm-db-title {
+  margin-top: 4px;
+  padding: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: var(--font);
+}
+.roam-sidebar-container .rm-graph-dropdown {
+  max-height: 70vh;
+  overflow: scroll;
+  font-size: 14px;
+  font-family: var(--main-font);
+}
+.roam-sidebar-container .rm-graph-dropdown a {
+  color: var(--font);
+}
+.bp3-menu-header {
+  border-top: 1px solid var(--highlighted-background);
+}
+.bp3-menu-header > h6 {
+  color: var(--font);
+}
+ul.bp3-menu.rm-graph-dropdown {
+  background-color: var(--main-background);
+  border: 1px solid var(--highlighted-background);
 }
 
 /* ----------------------------------------- */
