@@ -210,19 +210,8 @@ div.roam-center > div:first-child {
 
 /* ----------------------------------------- */
 
-/* Hide topbar border and add shadow */
-
-.roam-topbar {  
-  background-position: 0 -30px;
-  /**/
-  box-shadow: 0 1.5px 4px rgba(0,0,0,0.7);
-  border-bottom: none;
-}
-
-/* ----------------------------------------- */
-
 /*RR change: Comment/un-comment this section to toggle scrollbars on or off
-inspired by @Malcolm Ocean*/
+inspired by @Malcolm Ocean
 
 div::-webkit-scrollbar {
   width: 10px;
