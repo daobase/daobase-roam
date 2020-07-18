@@ -15,7 +15,7 @@
 }
 
 .roam-topbar .flex-h-box > div:nth-child(2):after {
-  top: -75px;
+  top: 3px;
   margin-left: 10px;
   /*
   filter: invert(1); /**/
