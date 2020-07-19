@@ -2,6 +2,51 @@
     content: "🔗"
 }
 
+span.rm-page-ref[data-tag="OrgTech"]:before,
+span[data-link-title^="OrgTech"] .rm-page-ref:before {
+  content: "🛠";
+}
+
+span.rm-page-ref[data-tag="Brain Food"]:before,
+span[data-link-title^="Brain Food"] .rm-page-ref:before {
+  content: "🧠";
+}
+
+span.rm-page-ref[data-tag="Featured"]:before,
+span[data-link-title^="Featured"] .rm-page-ref:before {
+  content: "⭐️";
+}
+
+span.rm-page-ref[data-tag="Design"]:before,
+span[data-link-title^="Design"] .rm-page-ref:before {
+  content: "🎨";
+}
+
+span.rm-page-ref[data-tag="Research"]:before,
+span[data-link-title^="Research"] .rm-page-ref:before {
+  content: "🔬";
+}
+
+span.rm-page-ref[data-tag="Thoughts"]:before,
+span[data-link-title^="Thoughts"] .rm-page-ref:before {
+  content: "💭";
+}
+
+span.rm-page-ref[data-tag="Tweets"]:before,
+span[data-link-title^="Tweets"] .rm-page-ref:before {
+  content: "🐦";
+}
+
+span.rm-page-ref[data-tag="Podcasts"]:before,
+span[data-link-title^="Podcasts"] .rm-page-ref:before {
+  content: "🎙";
+}
+
+span.rm-page-ref[data-tag="Conferences"]:before,
+span[data-link-title^="Conferences"] .rm-page-ref:before {
+  content: "🎤";
+}
+
 span.rm-page-ref[data-tag="Sources"]:before,
 span[data-link-title^="Sources"] .rm-page-ref:before {
   content: "📚";
