@@ -2,13 +2,13 @@
     content: "🔗"
 }
 
-span.rm-page-ref[data-tag="Source"]:before,
-span[data-link-title^="Source"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Sources"]:before,
+span[data-link-title^="Sources"] .rm-page-ref:before {
   content: "📚";
 }
 
-span.rm-page-ref[data-tag="Org"]:before,
-span[data-link-title^="Org"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Orgs"]:before,
+span[data-link-title^="Orgs"] .rm-page-ref:before {
   content: "🦠";
 }
 
@@ -22,18 +22,18 @@ span[data-link-title^="Blog"] .rm-page-ref:before {
   content: "📣";
 }
 
-span.rm-page-ref[data-tag="Topic"]:before,
-span[data-link-title^="Topic"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Topics"]:before,
+span[data-link-title^="Topics"] .rm-page-ref:before {
   content: "🏷";
 }
 
-span.rm-page-ref[data-tag="Idea"]:before,
-span[data-link-title^="Idea"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Ideas"]:before,
+span[data-link-title^="Ideas"] .rm-page-ref:before {
   content: "💭";
 }
 
-span.rm-page-ref[data-tag="Insight"]:before,
-span[data-link-title^="Insight"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Insights"]:before,
+span[data-link-title^="Insights"] .rm-page-ref:before {
   content: "💡";
 }
 
@@ -42,28 +42,28 @@ span[data-link-title^="People"] .rm-page-ref:before {
   content: "👤";
 }
 
-span.rm-page-ref[data-tag="Event"]:before,
-span[data-link-title^="Event"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Events"]:before,
+span[data-link-title^="Events"] .rm-page-ref:before {
   content: "🎟";
 }
 
-span.rm-page-ref[data-tag="Project"]:before,
-span[data-link-title^="Project"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Projects"]:before,
+span[data-link-title^="Projects"] .rm-page-ref:before {
   content: "🛣";
 }
 
-span.rm-page-ref[data-tag="Discussion"]:before,
-span[data-link-title^="Discussion"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Discussions"]:before,
+span[data-link-title^="Discussions"] .rm-page-ref:before {
   content: "👥";
 }
 
-span.rm-page-ref[data-tag="Tool"]:before,
-span[data-link-title^="Tool"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Tools"]:before,
+span[data-link-title^="Tools"] .rm-page-ref:before {
   content: "🛠";
 }
 
-span.rm-page-ref[data-tag="Working Group"]:before,
-span[data-link-title^="Working Group"] .rm-page-ref:before {
+span.rm-page-ref[data-tag="Working Groups"]:before,
+span[data-link-title^="Working Groups"] .rm-page-ref:before {
   content: "🔬";
 }
 
