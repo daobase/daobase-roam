@@ -11,3 +11,138 @@ span.rm-page-ref[data-tag="Org"]:before,
 span[data-link-title^="Org"] .rm-page-ref:before {
   content: "🦠";
 }
+
+span.rm-page-ref[data-tag="Index"]:before,
+span[data-link-title^="Index"] .rm-page-ref:before {
+  content: "🗃";
+}
+
+span.rm-page-ref[data-tag="Blog"]:before,
+span[data-link-title^="Blog"] .rm-page-ref:before {
+  content: "📣";
+}
+
+span.rm-page-ref[data-tag="Topic"]:before,
+span[data-link-title^="Topic"] .rm-page-ref:before {
+  content: "🏷";
+}
+
+span.rm-page-ref[data-tag="Idea"]:before,
+span[data-link-title^="Idea"] .rm-page-ref:before {
+  content: "💭";
+}
+
+span.rm-page-ref[data-tag="Insight"]:before,
+span[data-link-title^="Insight"] .rm-page-ref:before {
+  content: "💡";
+}
+
+span.rm-page-ref[data-tag="People"]:before,
+span[data-link-title^="People"] .rm-page-ref:before {
+  content: "👤";
+}
+
+span.rm-page-ref[data-tag="Event"]:before,
+span[data-link-title^="Event"] .rm-page-ref:before {
+  content: "🎟";
+}
+
+span.rm-page-ref[data-tag="Project"]:before,
+span[data-link-title^="Project"] .rm-page-ref:before {
+  content: "🛣";
+}
+
+span.rm-page-ref[data-tag="Discussion"]:before,
+span[data-link-title^="Discussion"] .rm-page-ref:before {
+  content: "👥";
+}
+
+span.rm-page-ref[data-tag="Tool"]:before,
+span[data-link-title^="Tool"] .rm-page-ref:before {
+  content: "🛠";
+}
+
+span.rm-page-ref[data-tag="Working Group"]:before,
+span[data-link-title^="Working Group"] .rm-page-ref:before {
+  content: "🔬";
+}
+
+span.rm-page-ref[data-tag="Newsletter"]:before,
+span[data-link-title^="Newsletter"] .rm-page-ref:before {
+  content: "📨";
+}
+
+span.rm-page-ref[data-tag="Interview"]:before,
+span[data-link-title^="Interview"] .rm-page-ref:before {
+  content: "🎙";
+}
+
+span.rm-page-ref[data-tag="Essay"]:before,
+span[data-link-title^="Essay"] .rm-page-ref:before {
+  content: "📝";
+}
+
+span.rm-page-ref[data-tag="Case Study"]:before,
+span[data-link-title^="Case Study"] .rm-page-ref:before {
+  content: "🧫";
+}
+
+span.rm-page-ref[data-tag="Education"]:before,
+span[data-link-title^="Education"] .rm-page-ref:before {
+  content: "🏫";
+}
+
+span.rm-page-ref[data-tag="Report"]:before,
+span[data-link-title^="Report"] .rm-page-ref:before {
+  content: "📊";
+}
+
+span.rm-page-ref[data-tag="Article"]:before,
+span[data-link-title^="Article"] .rm-page-ref:before {
+  content: "📃";
+}
+
+span.rm-page-ref[data-tag="Book"]:before,
+span[data-link-title^="Book"] .rm-page-ref:before {
+  content: "📕";
+}
+
+span.rm-page-ref[data-tag="Paper"]:before,
+span[data-link-title^="Paper"] .rm-page-ref:before {
+  content: "📑";
+}
+
+span.rm-page-ref[data-tag="Podcast"]:before,
+span[data-link-title^="Podcast"] .rm-page-ref:before {
+  content: "🎙";
+}
+
+span.rm-page-ref[data-tag="Talk"]:before,
+span[data-link-title^="Talk"] .rm-page-ref:before {
+  content: "🎤";
+}
+
+span.rm-page-ref[data-tag="Panel"]:before,
+span[data-link-title^="Panel"] .rm-page-ref:before {
+  content: "👥";
+}
+
+span.rm-page-ref[data-tag="Video"]:before,
+span[data-link-title^="Video"] .rm-page-ref:before {
+  content: "📹";
+}
+
+span.rm-page-ref[data-tag="Tweet"]:before,
+span[data-link-title^="Tweet"] .rm-page-ref:before {
+  content: "🐦";
+}
+
+span.rm-page-ref[data-tag="Working Paper"]:before,
+span[data-link-title^="Working Paper"] .rm-page-ref:before {
+  content: "📝";
+}
+
+span.rm-page-ref[data-tag="Whitepaper"]:before,
+span[data-link-title^="Whitepaper"] .rm-page-ref:before {
+  content: "📜";
+}
