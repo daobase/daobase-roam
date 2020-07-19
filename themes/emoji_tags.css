@@ -1,7 +1,3 @@
-.rm-alias-external:before {
-    content: "🔗"
-}
-
 span.rm-page-ref[data-tag="OrgTech"]:before,
 span[data-link-title^="OrgTech"] .rm-page-ref:before {
   content: "🛠";
